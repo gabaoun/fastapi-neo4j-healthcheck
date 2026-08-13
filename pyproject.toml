@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["flit_core>=3.2.0,<4"]
+build-backend = "flit_core.buildapi"
 
 [project]
 name = "fastapi-neo4j-healthcheck"
@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     { name = "Gabaoun", email = "94999154+gabaoun@users.noreply.github.com" }
 ]
-license = "MIT"
+license = { file = "LICENSE" }
 keywords = ["fastapi", "neo4j", "healthcheck", "kubernetes", "liveness", "readiness", "monitoring", "cypher"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -43,9 +43,6 @@ test = [
 Homepage = "https://github.com/gabaoun/fastapi-neo4j-healthcheck"
 Repository = "https://github.com/gabaoun/fastapi-neo4j-healthcheck"
 Issues = "https://github.com/gabaoun/fastapi-neo4j-healthcheck/issues"
-
-[tool.hatch.build.targets.wheel]
-packages = ["fastapi_neo4j_healthcheck"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
