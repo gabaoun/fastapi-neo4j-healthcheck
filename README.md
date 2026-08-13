@@ -1,8 +1,9 @@
 # fastapi-neo4j-healthcheck 🚀
 
-[![PyPI version](https://img.shields.io/pypi/v/fastapi-neo4j-healthcheck.svg)](https://pypi.org/project/fastapi-neo4j-healthcheck/)
+[![PyPI version](https://img.shields.io/pypi/v/fastapi-neo4j-healthcheck?color=blue)](https://pypi.org/project/fastapi-neo4j-healthcheck/)
+[![Python Versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://pypi.org/project/fastapi-neo4j-healthcheck/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Versions](https://img.shields.io/pypi/pyversions/fastapi-neo4j-healthcheck.svg)](https://pypi.org/project/fastapi-neo4j-healthcheck/)
+[![CI Status](https://github.com/gabaoun/fastapi-neo4j-healthcheck/actions/workflows/ci.yml/badge.svg)](https://github.com/gabaoun/fastapi-neo4j-healthcheck/actions)
 
 Production-grade, zero-overhead Neo4j health check endpoint for [FastAPI](https://fastapi.tiangolo.com/) applications with Kubernetes liveness/readiness probe support.
 
